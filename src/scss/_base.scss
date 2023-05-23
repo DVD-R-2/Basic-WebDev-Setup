@@ -1,0 +1,14 @@
+$font-stack: Helvetica, sans-serif;
+
+$colors: (
+  primary: #333,
+  secondary : #444,
+  complement : #888,
+  accent: #ccc,
+  action: #121212
+);
+
+body {
+  font: 100% $font-stack;
+  color: map-get($map: $colors, $key: primary);
+}
